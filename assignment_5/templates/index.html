@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>和經痛說再見</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='assets/favicon.ico') }}" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link rel="stylesheet" href="{{url_for('static', filename='css/styles.css')}}">  
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#!">M到無煩惱</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="/">生理期</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/health">日常保健</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/about">經痛</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/contact">醫生名單</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Header - set the background image for the header in the line below-->
+        <header class="py-5 bg-image-full" style="background-image: url('https://image.freepik.com/free-vector/hand-painted-watercolor-abstract-watercolor-background_23-2149017494.jpg')">
+            <div class="text-center my-5">
+                <img class="img-fluid rounded-circle mb-4" width="400" height="500" src="{{ url_for('static', filename='assets/7502811.jpg') }}" alt="..." />
+                <h1 class="text-white fs-3 fw-bolder"><h1 style="color:black">生理期</h1>
+                <p class="text-white-50 mb-0"><p style="color:black">生理期，又稱作月經、經期，是婦女身體因荷爾蒙分沁影響，而令子宮出現周期性的出血，屬正常現象。</p>
+            </div>
+        </header>
+        <!-- Content section-->
+        <section class="py-5">
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <h2>第一次月經和停經</h2>
+                        <p class="lead">一般來說，女孩約於11-12歲時開始第一次月經。而婦女在45-55歲時自然會出現更年期，月經便會停止，代表婦女不能再生育。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Image element - set the background image for the header in the line below-->
+        <div class="py-5 bg-image-full" style="background-image: url('https://uc.udn.com.tw/photo/2019/12/03/99/7145133.jpg')">
+            <!-- Put anything you want here! The spacer below with inline CSS is just for demo purposes!-->
+            <div style="height: 26rem"></div>
+        </div>
+        <!-- Content section-->
+        <section class="py-5">
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <h2>經前症候群(PMS)</h2>
+                        <p class="lead">經前症候群是一種身心症，其特點是在月經來潮一至兩周前開始出現，月經來潮後症狀自然消失。嚴重者可以影響日常工作、生活以及人際關係，最終影響患者的生活質素。</p>
+                        <p class="mb-0">與經前緊張綜合症有關的症狀，常見的包括：</p> 
+                        <p>生理症症狀：</p>
+                        <ol>
+                            <li>乳房脹痛／觸痛</li>
+                            <li>手腳腫脹／腫脹感</li>
+                            <li>體重增加</li>
+                            <li>頭痛</li>
+                            <li>困倦及全身無力</li>
+                        </ol>
+                        <p>心理及行為上的症狀：</p>
+                        <ol>
+                            <li>情緒不穩、煩躁易怒</li>
+                            <li>精神不集中</li>
+                            <li>健忘</li>
+                            <li>睡眠紊亂、失眠或嗜睡</li>
+                            <li>食慾變化、胃口改變（嗜高糖、高脂肪的食物）</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2021</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+    </body>
+</html>

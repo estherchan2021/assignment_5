@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>和經痛說再見</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='assets/favicon.ico') }}" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link rel="stylesheet" href="{{url_for('static', filename='css/styles.css')}}">  
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#!">M到無煩惱</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="/">生理期</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/health">日常保健</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/about">經痛</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/contact">醫生名單</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Header - set the background image for the header in the line below-->
+        <header class="py-5 bg-image-full" style="background-image: url('https://www.creativefabrica.com/wp-content/uploads/2020/09/03/Watercolor-Background-Pink-Graphics-5271210-1-1-580x386.jpg')">
+            <div class="text-center my-5">
+                <img class="img-fluid rounded-circle mb-4" width="400" height="500" src="{{ url_for('static', filename='assets/M-Pain.jpg') }}" alt="..." />
+                <h1 class="text-white fs-3 fw-bolder"><h1 style="color:black">經痛</h1>
+                <p class="text-white-50 mb-0"><p style="color:black">經痛是指月經前或月經期間，感到下腹輕微至嚴重痛楚<br>月經量多的時候，痛楚最為嚴重<br>可能會有腸胃不適，如嘔吐或大便鬆散等徵狀</p>
+            </div>
+        </header>
+        <!-- Content section-->
+        <section class="py-5">
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <h2>中醫穴位</h2>
+                        <p class="lead">中醫認為氣血不順、血凝於宮乃經痛主因，故此透過穴位按摩疏通經絡、使氣血運行暢通乃緩解經痛的妙法，以下3個穴位按摩療法就能幫妳輕鬆紓緩經痛及月經不適。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Image element - set the background image for the header in the line below-->
+        <div class="py-5 bg-image-full" style="background-image: url('https://img.shoplineapp.com/media/image_clips/6004fc8d11d4e5469eb64f34/original.jpg?1610939533')">
+            <!-- Put anything you want here! The spacer below with inline CSS is just for demo purposes!-->
+            <div style="height: 26rem"></div>
+        </div>
+        <!-- Content section-->
+        <section class="py-5">
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <p class="mb-0"><b>合谷穴：</b><br>位於雙手手掌虎口處。此穴可紓緩疼痛、幫助經期調理</p><br>
+                        <p class="mb-0"><b>血海穴：</b><br>位於大腿內側，髕骨距離膝蓋約2寸（約為手指三指寬），股四頭肌肉前端內側隆起處。此穴有助活血化淤，調理婦科問題</p><br>
+                        <p class="mb-0"><b>三陰交穴：</b><br>位於小腿內側，踝關節內側上方約3寸（約為手指四指寬）處。此穴有助於調和內分泌問題，並能緩解經痛不適</p><br>
+                        <p class="mb-0">穴道按摩時力道不用太大，只要揉壓時可讓穴位出現痠脹的感覺即可，若經痛狀況較嚴重者建議可增加穴道按壓的次數，就有助於緩解經期不適</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2021</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+    </body>
+</html>
